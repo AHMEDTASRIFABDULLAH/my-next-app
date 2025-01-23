@@ -2,7 +2,7 @@ import { getPost } from "@/lib/getPost";
 import Link from "next/link";
 
 const Details = async ({ params }) => {
-  const { id } = params;
+  const { id } = await params;
   const post = await getPost(id);
   return (
     <div className="p-4">
