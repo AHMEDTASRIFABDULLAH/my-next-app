@@ -5,3 +5,6 @@ export const allPosts = async () => {
   const data = await response.json();
   return data;
 };
+
+// import {handleAuth} from "@kinde-oss/kinde-auth-nextjs/server";
+// export const GET = handleAuth();
